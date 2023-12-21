@@ -373,6 +373,7 @@ body {
 @media (max-width: 425px) {
   .modalStyle.active {
     padding: 2rem;
+    overflow-y: scroll;
   }
 }
 /* Mobile NavMenu Section */
@@ -396,7 +397,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
 }
 .mobileMenu.active .mobileContainer .menuClose {
   cursor: pointer;
